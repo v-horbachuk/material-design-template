@@ -3,7 +3,7 @@ node ('master')
     stage ('Build NodeJS')
     {    
         env.NODEJS = tool 'nodejs16'
-	env.PATH = "${env.NODEJS_HOME}/bin:${env.PATH}"
+	env.PATH = "${env.NODEJS}/bin:${env.PATH}"
     }
     stage ('Checkout Repository')
     {
