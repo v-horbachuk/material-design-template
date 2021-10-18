@@ -1,4 +1,4 @@
-node ('agent')	
+node ('master')	
 {
     stage ('Build NodeJS')
     {    
