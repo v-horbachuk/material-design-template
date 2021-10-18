@@ -134,6 +134,13 @@ ____________________________________
 
    <img width="948" alt="Screenshot 2021-10-17 at 18 48 05" src="https://user-images.githubusercontent.com/26361903/137634855-eb8bc887-4a42-4ee2-95fb-1a3f6302090d.png">
 
+   **Checking push event in Multibranch pipeline events:**
+   
+   <img width="1383" alt="Screenshot 2021-10-18 at 08 15 46" src="https://user-images.githubusercontent.com/26361903/137673485-f005cfae-44ce-471a-8327-984405b34651.png">
+
+   **Checking job build via push event:**
+   
+   <img width="642" alt="Screenshot 2021-10-18 at 08 19 12" src="https://user-images.githubusercontent.com/26361903/137673580-5553ba91-943f-4f90-a694-caadd4b9a841.png">
 
 ## 6. Use Scripted pipeline instead of declarative:
 
