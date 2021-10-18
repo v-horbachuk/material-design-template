@@ -146,11 +146,11 @@ ____________________________________
 
    **Scripted file is in root folder named "Jenkinsfile.scripted"
 
-   <img width="1222" alt="Screenshot 2021-10-18 at 08 40 07" src="https://user-images.githubusercontent.com/26361903/137675880-eca2989e-4cd1-424b-91fa-7d71b87cc9be.png">
+   <img width="1228" alt="Screenshot 2021-10-18 at 09 38 19" src="https://user-images.githubusercontent.com/26361903/137680955-69e58674-38ff-4d66-8e7c-19e72163823c.png">
 
    **Build of Scripted Pipeline:**
    
-   <img width="1228" alt="Screenshot 2021-10-18 at 09 38 19" src="https://user-images.githubusercontent.com/26361903/137680955-69e58674-38ff-4d66-8e7c-19e72163823c.png">
+   <img width="1303" alt="Screenshot 2021-10-18 at 08 49 04" src="https://user-images.githubusercontent.com/26361903/137746789-143b179b-66ed-43a1-b7a2-095fa3806e8b.png">
 
 ## 7. Spin up VM with installed Artifactory:
 
