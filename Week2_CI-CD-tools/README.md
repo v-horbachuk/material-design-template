@@ -150,8 +150,18 @@ ____________________________________
 
    **Build of Scripted Pipeline:**
    
-   <img width="1303" alt="Screenshot 2021-10-18 at 08 49 04" src="https://user-images.githubusercontent.com/26361903/137676024-ef9db4e1-d836-4cc5-a4bb-698a474f7766.png">
+   <img width="1228" alt="Screenshot 2021-10-18 at 09 38 19" src="https://user-images.githubusercontent.com/26361903/137680955-69e58674-38ff-4d66-8e7c-19e72163823c.png">
 
 ## 7. Spin up VM with installed Artifactory:
 
-    
+```
+wget -O jfrog-deb-installer.tar.gz "https://releases.jfrog.io/artifactory/jfrog-prox/org/artifactory/pro/deb/jfrog-platform-trial-prox/[RELEASE]/jfrog-platform-trial-prox-[RELEASE]-deb.tar.gz"
+tar -xvzf jfrog-deb-installer.tar.gz
+cd jfrog-platform-trial-prox-7.27.6-deb/
+sudo ./install.sh
+sudo systemctl start artifactory.service
+sudo systemctl status artifactory.service
+```
+   <img width="1776" alt="Screenshot 2021-10-18 at 09 40 37" src="https://user-images.githubusercontent.com/26361903/137681211-1ffc92b7-9be5-4cb3-8cee-d2eedd572e18.png">
+
+## 8. Add new stage for publishing artifacts into Artifactory:    
