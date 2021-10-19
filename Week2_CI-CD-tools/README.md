@@ -134,13 +134,34 @@ ____________________________________
 
    <img width="948" alt="Screenshot 2021-10-17 at 18 48 05" src="https://user-images.githubusercontent.com/26361903/137634855-eb8bc887-4a42-4ee2-95fb-1a3f6302090d.png">
 
+   **Checking push event in Multibranch pipeline events:**
+   
+   <img width="1383" alt="Screenshot 2021-10-18 at 08 15 46" src="https://user-images.githubusercontent.com/26361903/137673485-f005cfae-44ce-471a-8327-984405b34651.png">
+
+   **Checking job build via push event:**
+   
+   <img width="642" alt="Screenshot 2021-10-18 at 08 19 12" src="https://user-images.githubusercontent.com/26361903/137673580-5553ba91-943f-4f90-a694-caadd4b9a841.png">
 
 ## 6. Use Scripted pipeline instead of declarative:
 
    **Scripted file is in root folder named "Jenkinsfile.scripted"
 
-   <img width="1225" alt="Screenshot 2021-10-17 at 20 22 54" src="https://user-images.githubusercontent.com/26361903/137638212-8f0179de-cfac-4687-81f1-a9db5ec6ad0e.png">
+   <img width="1228" alt="Screenshot 2021-10-18 at 09 38 19" src="https://user-images.githubusercontent.com/26361903/137680955-69e58674-38ff-4d66-8e7c-19e72163823c.png">
+
+   **Build of Scripted Pipeline:**
+   
+   <img width="1303" alt="Screenshot 2021-10-18 at 08 49 04" src="https://user-images.githubusercontent.com/26361903/137746789-143b179b-66ed-43a1-b7a2-095fa3806e8b.png">
 
 ## 7. Spin up VM with installed Artifactory:
 
-    
+```
+wget -O jfrog-deb-installer.tar.gz "https://releases.jfrog.io/artifactory/jfrog-prox/org/artifactory/pro/deb/jfrog-platform-trial-prox/[RELEASE]/jfrog-platform-trial-prox-[RELEASE]-deb.tar.gz"
+tar -xvzf jfrog-deb-installer.tar.gz
+cd jfrog-platform-trial-prox-7.27.6-deb/
+sudo ./install.sh
+sudo systemctl start artifactory.service
+sudo systemctl status artifactory.service
+```
+   <img width="1776" alt="Screenshot 2021-10-18 at 09 40 37" src="https://user-images.githubusercontent.com/26361903/137681211-1ffc92b7-9be5-4cb3-8cee-d2eedd572e18.png">
+
+## 8. Add new stage for publishing artifacts into Artifactory:    
