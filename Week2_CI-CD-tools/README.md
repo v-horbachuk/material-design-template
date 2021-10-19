@@ -109,14 +109,14 @@ _____________________________
    
 * **Write Jenkinsfile which describes declarative pipeline:**
 
-    Jenkinsfile with all required steps is in the root directory of the repository.
+    [Jenkinsfile](https://github.com/v-horbachuk/material-design-template/blob/master/Jenkinsfile) with all required steps is in the root directory of the repository.
     
     <img width="1098" alt="Screenshot 2021-10-17 at 20 24 11" src="https://user-images.githubusercontent.com/26361903/137638250-a7a2bba2-4f55-4c58-a99b-2e2c0ec51af7.png">
 
 ____________________________________
 
 
-### Build Logs of required job described in Jenkinsfile:
+### Build Logs of required job described in Jenkinsfile + [Logfile](https://github.com/v-horbachuk/material-design-template/blob/master/Week2_CI-CD-tools/build_15.log):
 
    <img width="1661" alt="Screenshot 2021-10-17 at 17 37 37" src="https://user-images.githubusercontent.com/26361903/137632270-9b57bc7b-a8b6-46c1-936a-afebde6824b6.png">
 
@@ -144,11 +144,11 @@ ____________________________________
 
 ## 6. Use Scripted pipeline instead of declarative:
 
-   **Scripted file is in root folder named "Jenkinsfile.scripted"
+   **Scripted file is in root folder named [Jenkinsfile.scripted](https://github.com/v-horbachuk/material-design-template/blob/master/Jenkinsfile_scripted)
 
    <img width="1228" alt="Screenshot 2021-10-18 at 09 38 19" src="https://user-images.githubusercontent.com/26361903/137680955-69e58674-38ff-4d66-8e7c-19e72163823c.png">
 
-   **Build of Scripted Pipeline:**
+   **Build of Scripted Pipeline + [Logfile](https://github.com/v-horbachuk/material-design-template/blob/master/Week2_CI-CD-tools/build_48.log):**
    
    <img width="1303" alt="Screenshot 2021-10-18 at 08 49 04" src="https://user-images.githubusercontent.com/26361903/137746789-143b179b-66ed-43a1-b7a2-095fa3806e8b.png">
 
